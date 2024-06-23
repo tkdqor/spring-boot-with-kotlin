@@ -21,8 +21,6 @@ repositories {
 
 dependencies {
     // 모듈 의존성
-    implementation(project(":http-app"))
-    implementation(project(":product-domain"))
 
     // Spring boot 라이브러리
     implementation("org.springframework.boot:spring-boot-starter-web")
