@@ -144,6 +144,9 @@ replay_pid*
 .gradle
 **/build/
 !src/**/build/
+### 모듈의 build 디렉토리는 제외하고, src 디렉토리의 build 디렉토리는 포함하기
+!**/src/main/**/build/
+!**/src/test/**/build/
 
 # Ignore Gradle GUI config
 gradle-app.setting
