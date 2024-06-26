@@ -53,8 +53,10 @@ cmake-build-*/
 # File-based project format
 *.iws
 
-# IntelliJ
+# IntelliJ IDEA
 out/
+!**/src/main/**/out/
+!**/src/test/**/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
